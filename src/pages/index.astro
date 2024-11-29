@@ -5,35 +5,28 @@ import DashboardWidget from '../components/DashboardWidget.astro';
 
 <DefaultLayout title="Dashboard">
   <section>
-    <h1>Welcome Astronaut 🧑‍🚀</h1><br>
-    <p class="size-20">Build fast dashboards, faster (and accessible).</p>
+    <h1>Welcome 🧑‍🚀</h1><br>
+    
   </section>
   <section class="margin-32">
     <div class="space-content">
       <div class="contents">
-        <h2>Widgets</h2>
+        <h2>Analytics</h2>
         <p id="current-time" class="size-12"></p>
       </div>
       <div class="grid small-grid-1 medium-grid-2 large-grid-3 equal-height">
         <DashboardWidget />
         <DashboardWidget
-          number="+33"
-          title="Products sold"
+          number="4533"
+          title="Accounts Opened"
         />
         <DashboardWidget
-          number="-120"
-          title="Images deleted"
+          number="4042"
+          title="Online Users"
           type="error"
         />
-        <div class="radius-large space-96" style="border: 4px dashed grey;"></div>
-        <div class="radius-large space-96" style="border: 4px dashed grey;"></div>
-        <div class="radius-large space-96" style="border: 4px dashed grey;"></div>
-        <div class="radius-large space-96" style="border: 4px dashed grey;"></div>
-        <div class="radius-large space-96" style="border: 4px dashed grey;"></div>
-        <div class="radius-large space-96" style="border: 4px dashed grey;"></div>
-        <div class="radius-large space-96" style="border: 4px dashed grey;"></div>
-        <div class="radius-large space-96" style="border: 4px dashed grey;"></div>
-        <div class="radius-large space-96" style="border: 4px dashed grey;"></div>
+    
+        
       </div>
     </div>
   </section>

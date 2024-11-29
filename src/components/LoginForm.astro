@@ -16,11 +16,7 @@ import { Icon } from 'astro-icon'
     <input type="password" name="password" required>
   </div>
   <button class="button color-secondary behavior-full" type="submit">Login</button>
-  <label class="checkbox">
-    <input type="checkbox" name="remember">
-    <span>Remember me</span>
-  </label>
-  <a href="#">Forgot password?</a>
+ 
 </form> 
 
 <script>
@@ -37,7 +33,7 @@ import { Icon } from 'astro-icon'
   submitButton.addEventListener('click', event => {
     event.preventDefault()
 
-    if (emailInput.value === 'admin@astro.demo' && passwordInput.value === 'Astronaut570') {
+    if (emailInput.value === 'donald.mxolisi@play929.com' && passwordInput.value === '123456789') {
       localStorage.setItem('isLoggedIn', 'true')
       window.location.href = '/'
     } else {
